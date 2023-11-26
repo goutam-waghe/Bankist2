@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAnkist</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <p>Good day , goutam</p>
+        <div id="img">
+            <img src="https://bankist.netlify.app/logo.png" alt="" />
+        </div>
+        <div class="login">
+            <input type="text" placeholder="user" />
+            <input type="text" placeholder="Pin" />
+            <i class="ri-arrow-right-line"></i>
+        </div>
+    </nav>
+
+    <div class="app">
+        <div class="current_balace">
+            <div id="Text_div">
+                <h2>current balace</h2>
+                <p>As of <span id="date">03/09/2024</span></p>
+            </div>
+            <div class="current_ammount">45456 ₹</div>
+        </div>
+
+        <div id="hero_section">
+            <div class="movements">
+
+
+            </div>
+
+            <div class="movement_oparation">
+                <div id="tranfer_to">
+                    <h3>Tranfer Money</h3>
+                    <div class="inputes">
+                        <input id="tranfer_user_input" type="text">
+                        <input id="tranfer_ammount_input" type="number">
+                        <i class="ri-arrow-right-line"></i>
+                        <p>Tranfer to</p>
+                        <p>Amount</p>
+
+                    </div>
+
+
+                </div>
+                <div id="request_loan">
+
+                    <h3>Request Loan</h3>
+                    <div class="inputes" id="loan">
+                        <input id="request_loan_input" type="number">
+                        <!-- <input type="text"> -->
+                        <i class="ri-arrow-right-line"></i>
+                        <p>Request Loan</p>
+
+
+                    </div>
+                </div>
+                <div id="close_acc">
+                    <h3>Close Account</h3>
+                    <div class="inputes">
+                        <input id="close_acc_user_input" type="text">
+                        <input id="close_acc_pin" type="text">
+                        <i class="ri-arrow-right-line"></i>
+                        <p>User</p>
+                        <p>pin</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
